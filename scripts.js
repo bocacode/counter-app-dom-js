@@ -8,14 +8,12 @@ function increase() {
   counterEl.innerHTML = count
 }
 
-// function that decreases
 function decrease(){
   // count = count - 1
   count -= // this shorthand for the line before
   counterEl.innerText = count
 }
 
-// bonus function that prints total
 function printTotal(){
   let countStr = count + ' - '
   totalCount.innerHTML += countStr
